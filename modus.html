@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="versus.css" rel="stylesheet">
+        <style>
+         @media only screen and (min-width: 320px) and (max-width: 1200px){
+             .zero{
+                width: 100%;
+                text-align: center;
+             } 
+             .zero1{
+                 display: none;
+             }
+             .zero2{
+                width: 100%;
+                text-align: center;
+             }
+             .display{
+                 text-align: center;
+             }
+             .sg{
+                 margin-left: 33%;
+             }
+             .read{
+                width: 80%;
+                margin: auto;
+             }
+             .view{
+                 position: relative;
+                 margin-left: 10%;
+             }
+             .navbar-collapse{
+                 text-align: center;
+                 margin-top: 10px;
+             }
+             .page{
+                 text-align: center;
+             }
+             .gallery1:hover{
+                 transform: scale(0);
+             }
+         }
+        </style>
+    </head>
+    <body>
+        <!--header-->
+            <section>
+            <navbar class="navbar navbar-expand-md">
+                <div class="container">
+
+                 <a href="#" class="navbar-brand text-white"><span class="text-white" style="font-weight: bold;">MODUS</span>&nbsp;versus</a>
+
+                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-control="#mynavbar" aria-expand="false">
+                  <span class="navbar-toggler-icon tg"></span>
+                 </button>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                     <ul class="navbar-nav ms-auto">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link text-white home rounded-pill">HOME</a>
+                         </li>
+                         
+                         <li class="nav-item">
+                            <a href="#" class="nav-link text-white">ABOUT</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">SERVICES</a>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link text-white dropdown-toggle bg rounded-pill" data-bs-toggle="dropdown" data-bs-target="#mydrop" aria-expanded="false" aria-controls="#mydrop">PORTFOLIO</a>
+                            <div class="dropdown-menu page" id="mydrop">
+                                <div class="dropdown-item text-white"><button class="btn btn-success p-2 yen">>&nbsp;&nbsp;Portfolio 2 column page</button></div>
+                                <div class="dropdown-item"><button class="btn btn-success p-2 yen">>&nbsp;&nbsp;Portfolio 2 column page</button></div>
+                                
+                                <div class="dropdown-item"><button class="btn btn-success p-2 yen">>&nbsp;&nbsp;Portfolio 2 column page</button></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">BLOG</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">FEATURES</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">CONTACTS</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white"><i class="fas fa-search text-white"></i></a>
+                        </li>
+                        
+                     </ul>
+                </div>
+            </div>
+            </navbar>
+            </section>
+        <!--carousel-->
+        <section>
+                <div class="carousel slide" id="mycarousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button role="button" data-bs-target="#mycarousel" data-bs-slide-to="0" aria-label="slide1" class="active">
+                      <img src="https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg" class="img-fluid d-block w-100 photo"></button>
+                  <button role="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="slide2"><img src="https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg" class="img-fluid d-block w-100 photo"></button>
+                  <button role="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="slide3"><img src="https://www.youandthemat.com/wp-content/uploads/nature-2-26-17.jpg" class="img-fluid d-block w-100 photo"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active first">
+                    <button class="btn btn-danger text-white sg">VESTIBULUM</button>
+                    <p class="text-white text-center para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Perferendis magnam soluta voluptatibus, accusamus nihil at.</p>
+                </div>
+                <div class="carousel-item second">
+                    <button class="btn btn-danger text-white sg">VESTIBULUM</button>
+                    <p class="text-white text-center para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Perferendis magnam soluta voluptatibus, accusamus nihil at.</p>
+                </div>
+                <div class="carousel-item third">
+                    <button class="btn btn-danger text-white sg">VESTIBULUM</button>
+                    <p class="text-white text-center para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Perferendis magnam soluta voluptatibus, accusamus nihil at.</p>
+                </div>
+                <div class="carousel-control">
+                    <button class="carousel-control-prev" data-bs-slide="prev" role="button" data-bs-target="#mycarousel">
+                        <span class="carousel-control-prev-icon left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" role="button" data-bs-target="#mycarousel">
+                        <span class="carousel-control-next-icon  right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--thumbsup-->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="mb-5"></div>
+                <div class="bean">
+                <p class="text-muted h4 ms-3">Some Of Our Top Services</p>
+                <p class="text-muted ms-3" style="float: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem sunt rerum dolores fuga.</p><span style="position: relative; bottom: 10px; left: 20%;"><button class="btn btn-danger text-white view">VIEW MORE</button></span>
+            </div>
+            <div class="mb-5"></div>
+            <div class="row justify-content-around gap-5">
+                <div class="col-md-2 col-sm-12 fo">
+                    <p class="text-danger text-center"><i class="fas fa-futbol"></i></p>
+                    <h4 class="text-center text-dark" style="font-size: smaller;">SUSPENDISSE</h4>
+                    <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.Facere mollitia cum voluptates ex ducimus rerum cupiditate labore reiciendis asperiores officiis.</p>
+                    <button class="btn btn-danger text-white read" style="position: relative; top: 10%; margin-left: 32px;">read more</button>
+                </div>
+                <div class="col-md-2 col-sm-12 fo">
+                    <p class="text-primary text-center"><i class="fas fa-cricket"></i></p>
+                    <h4 class="text-center text-dark" style="font-size: smaller;">MAECENAS</h4>
+                    <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia cum voluptates ex ducimus rerum cupiditate labore reiciendis asperiores officiis.</p>
+                    <button class="btn btn-primary text-white read" style="position: relative; top: 10%; margin-left: 32px;">read more</button>
+                </div>
+                <div class="col-md-2 col-sm-12 fo">
+                    <p class="text-success text-center"><i class="fal fa-field-hockey"></i></p>
+                    <h4 class="text-center text-dark" style="font-size: smaller;">ALIQUAM</h4>
+                    <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia cum voluptates ex ducimus rerum cupiditate labore reiciendis asperiores officiis.</p>
+                    <button class="btn btn-success text-white read" style="position: relative; top: 10%; margin-left: 32px;">read more</button>
+                </div>
+                <div class="col-md-2 col-sm-12 fo">
+                    <p class="text-warning text-center"><i class="fas fa-code"></i></p>
+                    <h4 class="text-center text-dark" style="font-size: smaller;">HABITASSE</h4>
+                    <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia cum voluptates ex ducimus rerum cupiditate labore reiciendis asperiores officiis.</p>
+                    <button class="btn btn-warning text-white read" style="position: relative; top: 10%; margin-left: 32px;">read more</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Modus-->
+        <div class="mb-5"></div>
+        <div class="container-fluid mode">
+            <div class="container">
+                <br><br>
+                 <h3 class="text-center text-danger">WHY MODUS VERSUS</h3>
+                 <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequuntur sed. Consequuntur tempora aperiam ipsa!</p>
+                <div class="row justify-content-evenly gap-4">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="sd">
+                            <label for="radio"></label>
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                        </div>
+                        <img src="https://i.insider.com/5a258ab23339b025218b45c0?width=1000&format=jpeg&auto=webp" class="img-fluid w-100 h-100 gallery">
+
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="sd">
+                            <label for="radio"></label>
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                        </div>
+                        <img src="https://www.travelmanagers.com.au/wp-content/uploads/2012/08/AdobeStock_254529936_Railroad-to-Denali-National-Park-Alaska_750x500.jpg" class="img-fluid w-100 h-100 gallery1">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="sd">
+                            <label for="radio"></label>
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                            <input type="radio" name="rdname" id="radio">
+                        </div>
+                        <img src="https://www.stonemountainpark.com/-/media/Project/HFE/SMP/History_Nature/SMP---Evergreen-Resort-with-Mountain-Large-Desktop-Hero.jpg?h=540&w=1366&la=en&hash=714FD0499712F522ACAA18FCD7063E89" class="img-fluid w-100 h-100 gallery3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--three cols-->
+        <div class="conatiner-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <h5 class="text-muted">Why Choose Us ?</h5>
+                        <div class="mb-4"></div>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Quisque at massa ipusam</p>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Maecenas a lorem augue,egestas</p>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Cras vitae felis at lacus eleifend</p>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Etiam auctor diam pellentesque</p>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Nulla ac massa at dolor</p>
+                        <p class="text-muted"><span class="text-success">-></span>&nbsp;Condimentum eleifend vitae vitae</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 center">
+                        <p class="text-muted text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quos neque molestiae aliquid iure veniam dolores repudiandae nesciunt reprehenderit <a href="#" class="text-danger">voluptatibus?</a>.</p>
+                        <br><br><br>
+
+                        <div class="row justify-content-evenly display">
+                        <div class="col-md-3 col-sm-12">
+                        <div class="spinner-border text-danger p-4 ms-1" role="status"><span class="visually-hidden">Loading...</span>50%</div>
+                        <div class="mb-2"></div>
+                        <p class="text-danger" style="font-size: small; font-weight: 100; font-style: italic;">SUSPENDISSE</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 two">
+                            <div class="spinner-border text-primary p-4 ms-1" role="status"><span class="visually-hidden">Loading...</span>70%</div>
+                            <div class="mb-2"></div>
+                            <p class="text-primary" style="font-size: small; font-weight: 100; font-style: italic;">MAECENAS</p>
+                            </div>
+                        
+                            <div class="col-md-3 col-sm-12 three">
+                                <div class="spinner-border text-success p-4 ms-1" role="status"><span class="visually-hidden">Loading...</span>80%</div>
+                                <div class="mb-2"></div>
+                                <p class="text-success" style="font-size: small; font-weight: 100; font-style: italic;">ALIQUAM</p>
+                                </div>
+                
+                                <div class="col-md-3 col-sm-12 fours">
+                                    <div class="spinner-border text-warning p-4 ms-1" role="status"><span class="visually-hidden">Loading...</span>100%</div>
+                                    <div class="mb-2"></div>
+                                    <p class="text-warning" style="font-size: small; font-weight: 100; font-style: italic;">HABITASSE</p>
+                                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h5 class="text-muted">What Client's Say?</h5>
+                        <div class="mb-5"></div>
+                        <p class="text-muted power">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam consequuntur quae voluptas hic? Quidem sequi molestias voluptatibus sint fuga!</p>
+                        <h4 class="text-center text-success">Jhon Doe</h4>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row justify-content-around">
+                    <div class="col-md-4 col-sm-12 zero2">
+                <h4 class="text-muted">Our Happy Clients <input type="radio" name="rdname"></h4></div>
+
+                <div class="col-md-4 col-sm-12 zero1">
+                <div class="hr"><hr></div></div>
+
+                <div class="col-md-4 col-sm-12 zero"><button class="btn btn-primary"><</button>
+                    <button class="btn btn-primary">></button></div>
+            </div>
+            <div class="mb-5"></div>
+            <div class="row gap-4 justify-content-around">
+                <div class="col-md-2 sr">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0lyAQr4bR1RirJfEYbhAWEKGGk5NXmhQFPpLzqfjZfXKO6t5ZzKnjk3PIO2SDyPqAA&usqp=CAU" class="img-fluid d-block w-52">
+                </div>
+                <div class="col-md-2 sr">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0lyAQr4bR1RirJfEYbhAWEKGGk5NXmhQFPpLzqfjZfXKO6t5ZzKnjk3PIO2SDyPqAA&usqp=CAU" class="img-fluid d-block w-52">
+                </div>
+                <div class="col-md-2 sr">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0lyAQr4bR1RirJfEYbhAWEKGGk5NXmhQFPpLzqfjZfXKO6t5ZzKnjk3PIO2SDyPqAA&usqp=CAU" class="img-fluid d-block w-52">
+                </div>
+                <div class="col-md-2 sr">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0lyAQr4bR1RirJfEYbhAWEKGGk5NXmhQFPpLzqfjZfXKO6t5ZzKnjk3PIO2SDyPqAA&usqp=CAU" class="img-fluid d-block w-52">
+                </div>
+            </div>
+            </div>
+            <div class="mb-5"></div>
+        </div>
+        <!--footer-->
+        <div class="container-fluid foot">
+            <div class="container">
+                <div class="mb-3"></div>
+              <div class="row gap-3 justify-content-around">
+                  <div class="col-md-2 col-sm-12">
+                      <h4 class="text-white">MODUS<span class="text-white">versus</span></h4>
+                      <br>
+                      <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum id ea voluptas quam earum tempora placeat illo in modi saepe?</p>
+                      <br>
+                      <h5 class="text-white" style="font-size: small; font-weight: 100; font-style: italic;">Phone:&nbsp;&nbsp;<span class="text-white" style="font-size: small; font-weight: 100; font-style: italic;">182 2569 5896</span></h5>
+                      <br>
+                      <h5 class="text-white" style="font-size: small; font-weight: 100; font-style: italic;">e-mail:&nbsp;&nbsp;<span class="text-white" style="font-size: small; font-weight: 100; font-style: italic;">info@modu.versus</span></h5>
+                  </div>
+                  <div class="col-md-2 col-sm-12">
+                      <h4 class="text-dark">Company</h4>
+                      <br>
+                      <h5 class="text-white">>&nbsp&nbspAbout</h5>
+                      <h5 class="text-white">>&nbsp&nbspFAQ</h5>
+                      <h5 class="text-white">>&nbsp&nbspContact</h5>
+                      <h5 class="text-white">>&nbsp&nbspTerms</h5>
+                      <h5 class="text-white">>&nbsp&nbspPrivacy</h5>
+                      <h5 class="text-white">>&nbsp&nbspTestimonials</h5>
+                  </div>
+                  <div class="col-md-2 col-sm-12">
+                    <h4 class="text-dark">Community</h4>
+                    <br>
+                    <h5 class="text-white">>&nbsp&nbspBlog</h5>
+                    <h5 class="text-white">>&nbsp&nbspForum</h5>
+                    <h5 class="text-white">>&nbsp&nbspSupport</h5>
+                    <h5 class="text-white">>&nbsp&nbspNewsletter</h5>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                       <h4 class="text-white" style="font-style: italic;">from the BLOG</h4>
+                       <br>
+                       <div class="row">
+                           <div class="col-md-12">
+                               <div class="row">
+                                   <div class="col-md-5">
+                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3_Cm1yw8FJpseZeyQ-RnXmDbzg_DAxNrfVfpfHDH5P3ycq_07p-_UYykdPd3yig4s6c&usqp=CAU" class="img-fluid d-block w-20">
+                            </div>
+                            <div class="col-md-5">
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <h6 class="text-dark">26 May,2013</h6>
+                            </div>
+                            </div>
+                           </div>
+                           </div>
+                           <div class="row">
+                           <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-5">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3_Cm1yw8FJpseZeyQ-RnXmDbzg_DAxNrfVfpfHDH5P3ycq_07p-_UYykdPd3yig4s6c&usqp=CAU" class="img-fluid d-block w-20">
+                         </div>
+                         <div class="col-md-5">
+                             <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                             <h6 class="text-dark">26 May,2013</h6>
+                         </div>
+                         </div>
+                           </div>
+                           </div>
+                       </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <!--since-->
+        <div class="container-fluid since">
+            <div class="container"> 
+                <div class="text-white gb">2013 ModusVersus</div>
+                <div class="text-white mo">
+                        <span><i class="fab fa-facebook-f"></i></span>&nbsp&nbsp
+                        <span><i class="fab fa-twitter"></i></span>&nbsp&nbsp
+                        <span><i class="fab fa-google-plus-g"></i></span>&nbsp&nbsp
+                        <span><i class="fas fa-wifi"></i></span></div> &nbsp&nbsp
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>
